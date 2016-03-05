@@ -76,7 +76,7 @@
     $("#loremForm").on("submit", function (e) {
         e.preventDefault();
         var loremType = $("#loremType").val();
-        var url = "http://wiki.chandol.net:8080/api";
+        var url = "/api";
         if (loremType === "sentence") {
             url += "/sentences";
         } else if (loremType === "paragraph") {
